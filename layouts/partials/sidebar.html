@@ -8,10 +8,11 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
       {{ range .Site.Menus.main }}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="">About Me</a></li>
     </ul>
   </div>
 </div>
