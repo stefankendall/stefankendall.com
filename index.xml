@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stefan Kendall</title>
+    <link>http://stefankendall.com/index.xml</link>
+    <description>Recent content on Stefan Kendall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2016 22:34:43 -0400</lastBuildDate>
+    <atom:link href="http://stefankendall.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Just Tabata</title>
+      <link>http://stefankendall.com/blog/just-tabata/</link>
+      <pubDate>Fri, 14 Oct 2016 22:34:43 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/blog/just-tabata/</guid>
+      <description>
+
+&lt;p&gt;Apps works best when they laser-focus on their core competency and cut the fluff. This sounds like a pointless truism, but most apps ignore this wisdom and build page after page of sliders and toggles.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve even done this myself.&lt;/p&gt;
+
+&lt;p&gt;Recently I&amp;rsquo;ve started doing tabata-exercise bike intervals, and I combed the app store for something simple that did exactly one thing: keep track of tabata intervals.&lt;/p&gt;
+
+&lt;p&gt;A tabata interval is this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For 20 seconds, work all out, then rest for 10 seconds.
+Repeat this for 8 intervals, or 4 minutes of total work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So here&amp;rsquo;s the whole app:&lt;/p&gt;
+
+&lt;p&gt;You don&amp;rsquo;t need anything more to do a tabata interval, so it doesn&amp;rsquo;t do anything more.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Text is large and colors are bright so you can toss your phone on the ground and use the app without holding it.&lt;/li&gt;
+&lt;li&gt;The time count is intentionally small so you focus on working and don&amp;rsquo;t &amp;ldquo;game&amp;rdquo; 20 second intervals. It&amp;rsquo;s &lt;strong&gt;20 seconds&lt;/strong&gt;. Keep working.&lt;/li&gt;
+&lt;li&gt;Interval changes have loud, obvious tones to indicate work and rest. The app respects your phone&amp;rsquo;s mute toggle if you don&amp;rsquo;t want to be the asshole at the gym.&lt;/li&gt;
+&lt;li&gt;Tap targets are huge, way larger than the visible buttons, so you can quit or pause when your vision is fading from a max effort interval.&lt;/li&gt;
+&lt;li&gt;All screens of the app work in portrait, landscape, and even docked on an iPad. The screen adjusts and eliminates elements to keep the interface clean.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are a million tabata apps, and everything I found was terrible. The app is free on the app store, so go &lt;a href=&#34;itms://itunes.apple.com/us/app/apple-store/id1095176883?mt=8&#34;&gt;download it now&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;P.S:&lt;/p&gt;
+
+&lt;h2 id=&#34;size-classes&#34;&gt;Size Classes&lt;/h2&gt;
+
+&lt;p&gt;This was the first time I&amp;rsquo;ve properly built views using size classes on iOS. It was clunky, a little buggy, and multiplied the cost of development considerably. In the end, though, I think it&amp;rsquo;s worth it. The days of portrait, landscape, and phone-only apps are over.&lt;/p&gt;
+
+&lt;p&gt;Building for &amp;ldquo;just portrait&amp;rdquo; or &amp;ldquo;just landscape&amp;rdquo; or &amp;ldquo;just iPhone&amp;rdquo; likely means your design isn&amp;rsquo;t very good and is doing too much. When apps have focus, and don&amp;rsquo;t resemble the canonically bad yahoo.com, you don&amp;rsquo;t need every single pixel.&lt;/p&gt;
+
+&lt;p&gt;This means every screen is more expensive to design and build, and that&amp;rsquo;s probably a good thing. Apps that resemble junk drawers will explode in cost and become infeasible for most developers. I feel this will likely be an adjustment period for clients and managers used to faster turnaround for shitty web pages and shitty apps, but the days of publishing garbage are done.&lt;/p&gt;
+
+&lt;p&gt;There are enough dull tools in the world, and it&amp;rsquo;s time to start building some sharp ones.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Steak Games</title>
+      <link>http://stefankendall.com/post/steak-games/</link>
+      <pubDate>Fri, 14 Oct 2016 21:16:31 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/post/steak-games/</guid>
+      <description>&lt;p&gt;I believe that games on iOS can be better than they are. I&amp;rsquo;m trying to make that belief a reality.
+See more at &lt;a href=&#34;http://steakgames.com&#34;&gt;steakgames.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding HTTP</title>
+      <link>http://stefankendall.com/blog/understanding-http/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stefankendall.com/blog/understanding-http/</guid>
+      <description>
+
+&lt;p&gt;&lt;code&gt;/car.cfc?id=1234&amp;amp;method=get&amp;amp;ReturnFormat=json&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;http&#34;&gt;HTTP&lt;/h2&gt;
+
+&lt;p&gt;It feels like I&amp;rsquo;ve been in a thousand discussions about web APIs, and I&amp;rsquo;ve explained the same few things over and over in each of those discussions. It&amp;rsquo;s 2016, and at this point I expect developers to have a loose grasp on how the internet works.&lt;/p&gt;
+
+&lt;p&gt;But whenever I&amp;rsquo;m talking to someone I haven&amp;rsquo;t worked with before, experience tells me that I should apply the following filter:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;We have a rest api&amp;hellip;&amp;rdquo; &lt;strong&gt;[I doubt it]&lt;/strong&gt; &amp;ldquo;&amp;hellip;that returns json&amp;hellip;&amp;rdquo;
+&lt;strong&gt;[&lt;a href=&#34;http://json.org&#34;&gt;I&amp;rsquo;ll be the judge of that&lt;/a&gt;. &lt;sup&gt;50&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt; it&amp;rsquo;s actually JSONP or something else]&lt;/strong&gt; &amp;ldquo;&amp;hellip;that&amp;rsquo;s horizontally scalable&amp;hellip;&amp;rdquo; &lt;strong&gt;[definitely isn&amp;rsquo;t]&lt;/strong&gt; &amp;ldquo;&amp;hellip;and follows current web standards.&amp;rdquo; &lt;strong&gt;[lol okay]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to go answer this here, but I may make this an interview question going forward. It doesn&amp;rsquo;t require any development to answer, and anyone with a reasonable grasp of how HTTP works will find at least 3 issues without breaking a sweat.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Elite developer zen master ninja rockstars&amp;rdquo; will find more than 3 problems. Can you?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tabletop Simulator Backup</title>
+      <link>http://stefankendall.com/post/tabletop-simulator-backup/</link>
+      <pubDate>Sun, 14 Aug 2016 21:19:20 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/post/tabletop-simulator-backup/</guid>
+      <description>&lt;p&gt;My first npm package and the only reliable way to play Tabletop Simulator mods a week after they&amp;rsquo;re published.
+See more on &lt;a href=&#34;https://www.npmjs.com/package/ttsbackup&#34;&gt;npm&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>npm install -g ttsbackup</title>
+      <link>http://stefankendall.com/blog/ttsbackup/</link>
+      <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://stefankendall.com/blog/ttsbackup/</guid>
+      <description>&lt;p&gt;So I published a tool on npm. If you play &lt;a href=&#34;http://store.steampowered.com/app/286160/&#34;&gt;Tabletop Simulator&lt;/a&gt; (and you probably should),
+then you&amp;rsquo;ve probably downloaded a few &lt;a href=&#34;https://steamcommunity.com/workshop/browse/?appid=286160&#34;&gt;mods&lt;/a&gt; by now.&lt;/p&gt;
+
+&lt;p&gt;There are hundreds of great mods, but unfortunately the half life on any given mod is terrible. Mods disappear constantly, and that means you can&amp;rsquo;t play them any more, even if you installed them locally!&lt;/p&gt;
+
+&lt;p&gt;A mod breaks when:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;it gets popular and the creator hosted files on dropbox, and dropbox has transfer quotas.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;the author pulls the mod off of the workshop for any reason. Sorry!&lt;/li&gt;
+&lt;li&gt;&amp;hellip;any of the places the author put files goes down. Like imgur. Or pastebin (lol). Or some random german website (this really happens). Or dropbox or google drive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The point is that there are way too many points of failure, and there&amp;rsquo;s no reason for it.&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be great if you could fully copy a mod locally, and host it on something like your personal dropbox? Even if you play with your friends &lt;strong&gt;all the time&lt;/strong&gt;, it&amp;rsquo;s incredibly unlikely you would ever hit your bandwidth limit. And if you do, I&amp;rsquo;m sure one of your friends has dropbox, too.&lt;/p&gt;
+
+&lt;p&gt;This is why &lt;a href=&#34;https://www.npmjs.com/package/ttsbackup&#34;&gt;ttsbackup&lt;/a&gt; exists.&lt;/p&gt;
+
+&lt;p&gt;Instead of losing mods you&amp;rsquo;ve played forever, you can download all their images and models, and then create a new mod file that points to your copies of the files. So the flow goes something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;run ttsbackup&lt;/li&gt;
+&lt;li&gt;pick a mod&lt;/li&gt;
+&lt;li&gt;pick a download location&lt;/li&gt;
+&lt;li&gt;give a base url for the new mod (like &lt;code&gt;https://dl.dropboxusercontent.com/u/&amp;lt;youruserid/&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;pick a name for the mod backup&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that&amp;rsquo;s it! You&amp;rsquo;ve saved a mod forever. No one can take it from you, and no shitty web host can go down to ruin game night.&lt;/p&gt;
+
+&lt;p&gt;If a mod has already become broken, there&amp;rsquo;s also a &amp;ldquo;ttsbackup recover&amp;rdquo; command, but it probably won&amp;rsquo;t work. Tabletop Simulator loads files a little weird; images in decks and bags don&amp;rsquo;t actually load until you pull them out of the deck or bag. So if you haven&amp;rsquo;t seen literally every card and model in a game, you don&amp;rsquo;t have the full game.&lt;/p&gt;
+
+&lt;p&gt;Backup your mods early and often, and you won&amp;rsquo;t lose them. Happy gaming!&lt;/p&gt;
+
+&lt;p&gt;p.s: I&amp;rsquo;m considering making this a native mac app. I&amp;rsquo;d support windows, too, if not for every cross-platform UI framework being godawful in this nascent age of technology. Ah well.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
