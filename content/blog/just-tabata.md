@@ -1,7 +1,7 @@
 +++
 Categories = [
 ]
-date = "2016-10-14T22:34:43-04:00"
+date = "2016-03-14T22:34:43-04:00"
 title = "Just Tabata"
 menu = "main"
 Description = ""
@@ -21,6 +21,11 @@ A tabata interval is this:
 > Repeat this for 8 intervals, or 4 minutes of total work.
 
 So here's the whole app:
+
+<img style="display:inline-block; width: 24%" src="/files/tabata1.jpg"></img>
+<img style="display:inline-block; width: 24%" src="/files/tabata2.jpg"></img>
+<img style="display:inline-block; width: 24%" src="/files/tabata3.jpg"></img>
+<img style="display:inline-block; width: 24%" src="/files/tabata4.jpg"></img>
 
 You don't need anything more to do a tabata interval, so it doesn't do anything more.
 
