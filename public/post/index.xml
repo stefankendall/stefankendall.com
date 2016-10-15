@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Stefan Kendall</title>
+    <link>http://stefankendall.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Stefan Kendall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2016 21:16:31 -0400</lastBuildDate>
+    <atom:link href="http://stefankendall.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Steak Games</title>
+      <link>http://stefankendall.com/post/steak-games/</link>
+      <pubDate>Fri, 14 Oct 2016 21:16:31 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/post/steak-games/</guid>
+      <description>&lt;p&gt;I believe that games on iOS can be better than they are. I&amp;rsquo;m trying to make that belief a reality.
+See more at &lt;a href=&#34;http://steakgames.com&#34;&gt;steakgames.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tabletop Simulator Backup</title>
+      <link>http://stefankendall.com/post/tabletop-simulator-backup/</link>
+      <pubDate>Sun, 14 Aug 2016 21:19:20 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/post/tabletop-simulator-backup/</guid>
+      <description>&lt;p&gt;My first npm package and the only reliable way to play Tabletop Simulator mods a week after they&amp;rsquo;re published.
+See more on &lt;a href=&#34;https://www.npmjs.com/package/ttsbackup&#34;&gt;npm&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
