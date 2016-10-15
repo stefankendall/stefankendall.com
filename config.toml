@@ -1,8 +1,0 @@
-baseurl = "http://stefankendall.com/"
-title = "Stefan Kendall"
-languageCode = "en-us"
-theme = "hyde"
-
-[params]
-  layoutReverse = true
-  description = "stuff I'm building"
