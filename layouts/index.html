@@ -7,11 +7,11 @@
     <div class="posts">
         {{ range where .Data.Pages "Section" "post"}}
         <div class="post">
-            <h1 class="post-title">
+            <h2 class="post-title">
                 <a href="{{ .Params.linkurl }}">
                     {{ .Title }}
                 </a>
-            </h1>
+            </h2>
             {{ .Description }}
         </div>
         {{ end }}
@@ -21,12 +21,16 @@
                     Blog
                 </a>
             </h1>
-            Mostly just rants.
-            {{ range first 1 (where .Data.Pages "Section" "blog")}}
-            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-            <time>{{ .Date.Format "Monday, Jan 2, 2006" }}</time>
+            {{ range first 3 (where .Data.Pages "Section" "blog")}}
+            <div>
+                <time>{{ .Date.Format "1/2/2006" }}</time>
+                - <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </div>
             {{ end }}
-
+            <div>
+                <a href="/blog">more</a>
+            </div>
+            <br/>
         </div>
     </div>
 </div>
