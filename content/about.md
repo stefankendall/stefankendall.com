@@ -9,12 +9,14 @@ date = "2016-10-16T08:27:40-04:00"
 title = "About Me"
 +++
 
-## Brief
+## Brief 
+
+<img src="/files/profile.png" width="100px">
 
 I've been a software developer for about a decade and I live in Raleigh, NC.
 I prefer iOS and web app development.
 If you need a resume, go [here](http://stackoverflow.com/users/story/pdf/78182?View=Pdf).
- 
+
 ## Technology
 
 I do not believe that a dumpster list of used, read-about, or heard-it-mentioned-once technologies
