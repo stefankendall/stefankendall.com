@@ -1,0 +1,121 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en-us" lang="en-us" >
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.17" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    
+    <title>April&#39;s game, Stock Story &middot; Stefan Kendall</title>
+    
+
+    
+    <link rel="stylesheet" href="http://stefankendall.com/css/poole.css">
+    <link rel="stylesheet" href="http://stefankendall.com/css/syntax.css">
+    <link rel="stylesheet" href="http://stefankendall.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Stefan Kendall"/>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+	<body class=" layout-reverse">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://stefankendall.com/"><h1>Stefan Kendall</h1></a>
+      <p class="lead">
+       stuff I&#39;m building 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Projects</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="">About Me</a></li>
+    </ul>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>April&#39;s game, Stock Story</h1>
+				
+				<span class="post-date">Fri, May 15, 2015</span>
+				
+			      
+
+<p>I&rsquo;ve always liked gamebooks and choose your own adventures.
+<a href="https://en.wikipedia.org/wiki/Give_Yourself_Goosebumps">Give Yourself Goosebumps</a>
+defined my childhood, and I can remember many of the stories and mechanics from the books.
+Most recently I&rsquo;ve loved the work of Inkle Studios on <a href="http://www.inklestudios.com/80days/">80 days</a> and the
+<a href="http://www.inklestudios.com/sorcery/">Sorcery!</a> series. These games are top in class in games currently made for the iPad. They hire real, actual writers for their games, and it shows. There are few &ldquo;bad guys and egg heads&rdquo; and deep stories in a branching, complex world.</p>
+
+<p>I thought it would be fun to play with some of the mechanics needed for a
+choose your own adventure, so I built <a href="https://itunes.apple.com/app/id988245189">Stock Story</a>.</p>
+
+<p><img src="/files/stockstory1.png" style="display:inline-block;width:49%"></img>
+<img src="/files/stockstory2.png" style="display:inline-block;width:49%"></img></p>
+
+<h2 id="stock-content">Stock Content</h2>
+
+<p>One of the constraints I put on the project was using nothing but stock material, aside from the story. All audio, images, and even the app icon are built using content from</p>
+
+<p><a href="http://shutterstock.com">shutterstock</a> ($143/month) and <a href="http://audioblocks.com">audioblocks</a> ($99/year).</p>
+
+<p>The audio for the project was a much better deal than the images, although you might recognize a few on other parts of the site. As it turns out, inkle studios offers a <a href="http://www.inklestudios.com/inklewriter/">choose your own adventure book creator for free</a>. Build your story, then publish to kindle for some small fee or output a json file that you can use however you want. Markers, conditionals, paragraph joining - it has it all. This saved a significant part of the challenge of the project, since all I had to do was write a json file handler instead of build a story format myself. The json schema seemed odd at first until I realized how incredibly robust it is for crafting any kind of story.</p>
+
+<h2 id="writing-is-hard">Writing is hard</h2>
+
+<p>And it takes a long time. All told, I wrote 4,129 words for the story with 17 unique endings. This didn&rsquo;t leave much time for editing, and a huge portion of the game I thought I could build I had to cut.</p>
+
+<h2 id="and-so-is-flowing-text">&hellip;and so is flowing text</h2>
+
+<p>SpriteKit has no UILabel, no fancy-schmance auto-flowing auto-sizing line-wrapping class to display text. In SpriteKit, you get one line of text and you can set the font. Justification? Word wrap? What&rsquo;s that? In the end I wound up computing string sizes and manually flowing text, which wasn&rsquo;t the best and really made me appreciate the tools we have that make these sorts of problems trivial in normal applications</p>
+
+<p>I tip my hat to you, whichever team built UILabel. You the real MVP.</p>
+
+<h2 id="and-so-is-scrolling">&hellip;and so is scrolling</h2>
+
+<p>You open Facebook.app/Twitter.app and scroll up and down willy-nilly. Items pop into view and everything is smooth and wonderful.</p>
+
+<p>SpriteKit has no UIScrollView. I didn&rsquo;t have the time to build a solution myself, so each adventure is a one-way trip.</p>
+
+<h2 id="retrospective">Retrospective</h2>
+
+<h3 id="the-good">The Good</h3>
+
+<ul>
+<li>Stock images are better than you think, and they have more uses than late night commercial filler. I see stock images EVERYWHERE now, and I&rsquo;m amazed how much I missed this before.</li>
+<li>Audioblocks is super cool and very inexpensive. I now have a go-to for both games and apps/demos/software.</li>
+<li><strong>I</strong> wrote a (short) story! Good or bad, <strong>I</strong> hit the release button. <strong>I</strong> am now hyper-aware of sentences <strong>I</strong> write that begin with <strong>I</strong>.</li>
+</ul>
+
+<h3 id="the-bad">The Bad</h3>
+
+<ul>
+<li><strong>I am not a good writer</strong>. I do believe it&rsquo;s a skill that can be improved, so I hope to do that. I&rsquo;ve downloaded <a href="http://www.audible.com/pd/Self-Development/Writing-Great-Fiction-Storytelling-Tips-and-Techniques-Audiobook/B00P026PZC">Writing Great Fiction: Storytelling Tips and Techniques</a> as a first step toward learning to tell better stories. Stories permeate everything: video, documentation, debate, discussion, and even sales. People love stories, so it&rsquo;s important to learn how to tell them.</li>
+<li>More a tech demo, less a game. <em>Sorcery!</em> and <em>80 days</em> both have mechanics that make them more than just choose your own adventures, but while I tried to add a little extra by adding mini-games, I only had time to build one, so that fell flat.</li>
+</ul>
+
+<h2 id="the-next-game">The Next Game</h2>
+
+<p>The start of each month will serve as a time to look back on the last game and plan the next. This leaves about two weeks for development and a week for release: screenshots, app icons, and the other hoops required to publish an app. So what&rsquo;s the next game? I&rsquo;d like to build a proper side scroller, and maybe look into game center if I have the time.</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
