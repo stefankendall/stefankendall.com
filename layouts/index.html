@@ -8,7 +8,7 @@
         {{ range where .Data.Pages "Section" "post"}}
         <div class="post">
             <h1 class="post-title">
-                <a href="{{ .Permalink }}">
+                <a href="{{ .Params.linkurl }}">
                     {{ .Title }}
                 </a>
             </h1>
@@ -21,11 +21,10 @@
                     Blog
                 </a>
             </h1>
-            Mostly just rants. Latest:
-
+            Mostly just rants.
             {{ range first 1 (where .Data.Pages "Section" "blog")}}
             <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-            <time class="pull-right post-list">{{ .Date.Format "Monday, Jan 2, 2006" }}</time>
+            <time>{{ .Date.Format "Monday, Jan 2, 2006" }}</time>
             {{ end }}
 
         </div>
