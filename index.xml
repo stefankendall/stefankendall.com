@@ -6,8 +6,80 @@
     <description>Recent content on Stefan Kendall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Oct 2016 21:16:31 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2016 08:27:40 -0400</lastBuildDate>
     <atom:link href="http://stefankendall.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://stefankendall.com/about/</link>
+      <pubDate>Sun, 16 Oct 2016 08:27:40 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;brief&#34;&gt;Brief&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been a software developer for about a decade and I live in Raleigh, NC.
+I prefer iOS and web app development.
+If you need a resume, go &lt;a href=&#34;http://stackoverflow.com/users/story/pdf/78182?View=Pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;I do not believe that a dumpster list of used, read-about, or heard-it-mentioned-once technologies
+is any meaningful measure of a developer and actively hides more useful skills like project management,
+picking the best tool for the job over what you know, and engineering principles.&lt;/p&gt;
+
+&lt;p&gt;I like &lt;strong&gt;iOS&lt;/strong&gt; and &lt;strong&gt;web app development&lt;/strong&gt;, but I&amp;rsquo;ve done full-stack at day jobs.
+  I prefer to make things that &lt;strong&gt;impact users&lt;/strong&gt; directly.&lt;/p&gt;
+
+&lt;h3 id=&#34;unsorted-list-of-buzzwords-i-ve-used-recently&#34;&gt;unsorted list of buzzwords I&amp;rsquo;ve used recently&lt;/h3&gt;
+
+&lt;p&gt;&lt;small&gt;angular, javascript, iOS/most *Kit frameworks, swift, node, sails, mocha, jasmine, capybara, cucumber,
+protractor, html, css, bootstrap, foundation, git, jenkins, teamcity, es6, bower, npm, yarn, hugo, grunt, gulp,
+ markdown, react, java, gradle, tdd, agile, kanban, and the catcher in the rye.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;The future of the web is web components, and the future of software is leaning on platforms
+ to build value. I&amp;rsquo;ll use the best tools for the job as they rapidly and repeatedly cycle in and out of use.&lt;/p&gt;
+
+&lt;h3 id=&#34;stuff-i-don-t-use&#34;&gt;stuff I don&amp;rsquo;t use&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re looking for this experience or tech stack specifically, I&amp;rsquo;m &lt;em&gt;probably&lt;/em&gt; not interested.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;tech&lt;/th&gt;
+&lt;th&gt;why&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.NET&lt;/td&gt;
+&lt;td&gt;This never seems the best option for the job given open-source alternatives&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;PHP&lt;/td&gt;
+&lt;td&gt;It&amp;rsquo;s 2016 and I don&amp;rsquo;t work at facebook where I&amp;rsquo;d be using Hack anyway&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Android&lt;sup&gt;1&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;The SDKs/toolchain/simulators are awful, and I&amp;rsquo;d probably use &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;react native&lt;/a&gt; to avoid these APIs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; If the toolchain/sdks ever improve, I&amp;rsquo;ll reconsider my position. In the meantime I&amp;rsquo;d stick to react native.&lt;/p&gt;
+
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+
+&lt;p&gt;Want to discuss an interesting project? Think I might be interested? E-mail me and let&amp;rsquo;s talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto: stefankendall@gmail.com&#34;&gt;stefankendall@gmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Steak Games</title>
@@ -95,6 +167,15 @@ then you&amp;rsquo;ve probably downloaded a few &lt;a href=&#34;https://steamcom
 
 &lt;p&gt;p.s: I&amp;rsquo;m considering making this a native mac app. I&amp;rsquo;d support windows, too, if not for every cross-platform UI framework being godawful in this nascent age of technology. Ah well.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Just Tabata</title>
+      <link>http://stefankendall.com/post/just-tabata/</link>
+      <pubDate>Wed, 16 Mar 2016 08:22:25 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/post/just-tabata/</guid>
+      <description></description>
     </item>
     
     <item>
