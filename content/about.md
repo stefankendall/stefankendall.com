@@ -43,9 +43,10 @@ The future of the web is web components, and the future of software is leaning o
    ------------- | -------------
    .NET  | This never seems the best option for the job given open-source alternatives
    PHP | It's 2016 and I don't work at facebook where I'd be using Hack anyway
-   Android<sup>1</sup> | The SDKs/toolchain/simulators are awful, and I'd probably use [react native](https://facebook.github.io/react-native/) to avoid these APIs
+   Android<sup>1</sup> | The SDK/toolchain/simulators are awful
 
-<sup>1</sup> If the toolchain/sdks ever improve, I'll reconsider my position. In the meantime I'd stick to react native.
+<sup>1</sup> If the toolchain/sdks ever improve, I'll reconsider my position.
+In the meantime I would stick to [react native](https://facebook.github.io/react-native/) even though I normally caution against middleware.
 
 ## Contact
 
