@@ -5,4 +5,5 @@ theme = "hyde"
 
 [params]
   layoutReverse = true
-  description = "stuff I'm building"
+  description = ""
+  ContactEmail = "stefankendall@gmail.com"
