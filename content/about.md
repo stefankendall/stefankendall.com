@@ -28,7 +28,7 @@ I like **iOS** and **web app development**, but I've done full-stack at day jobs
   
 ### unsorted list of buzzwords I've used recently
 
-<small>angular, javascript, iOS/most *Kit frameworks, swift, node, sails, mocha, jasmine, capybara, cucumber,
+<small>angular, javascript, iOS/most *Kit frameworks, swift, node, sails, mocha, jasmine, ruby, capybara, cucumber,
 protractor, html, css, bootstrap, foundation, git, jenkins, teamcity, es6, bower, npm, yarn, hugo, grunt, gulp,
  markdown, react, java, gradle, tdd, agile, kanban, and the catcher in the rye.</small>
 
