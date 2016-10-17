@@ -68,12 +68,13 @@ protractor, html, css, bootstrap, foundation, git, jenkins, teamcity, es6, bower
 
 &lt;tr&gt;
 &lt;td&gt;Android&lt;sup&gt;1&lt;/sup&gt;&lt;/td&gt;
-&lt;td&gt;The SDKs/toolchain/simulators are awful, and I&amp;rsquo;d probably use &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;react native&lt;/a&gt; to avoid these APIs&lt;/td&gt;
+&lt;td&gt;The SDK/toolchain/simulators are awful&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; If the toolchain/sdks ever improve, I&amp;rsquo;ll reconsider my position. In the meantime I&amp;rsquo;d stick to react native.&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; If the toolchain/sdks ever improve, I&amp;rsquo;ll reconsider my position.
+In the meantime I would stick to &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;react native&lt;/a&gt; even though I normally caution against middleware.&lt;/p&gt;
 
 &lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
 
