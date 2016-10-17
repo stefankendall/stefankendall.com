@@ -3,7 +3,6 @@ Categories = [
 ]
 date = "2016-03-14T22:34:43-04:00"
 title = "Just Tabata"
-menu = "main"
 Description = ""
 Tags = [
 ]
