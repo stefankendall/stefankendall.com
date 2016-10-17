@@ -5,3 +5,19 @@
 .content {
     padding-top: 2em;
 }
+
+@media (min-width: 48em) {
+    .bottom-sidebar ul {
+        float: left;
+    }
+
+    .bottom-sidebar img {
+        float: right;
+    }
+}
+
+@media (max-width: 48em) {
+    .bottom-sidebar img {
+        display: none;
+    }
+}
