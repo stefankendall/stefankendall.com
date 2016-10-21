@@ -15,7 +15,7 @@ title = "About Me"
 
 I've been a software developer for about a decade and I live in Raleigh, NC.
 I prefer iOS and web app development.
-If you need a resume, go [here](http://stackoverflow.com/users/story/pdf/78182?View=Pdf).
+If you need a resume, go [here](/files/resume.pdf).
 
 ## Technology
 
