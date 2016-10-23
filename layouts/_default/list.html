@@ -3,13 +3,17 @@
 
 {{ partial "sidebar.html" . }}
 
-  <div class="content container">
+<div class="content container">
     <div class="posts">
         {{ range .Data.Pages }}
-          <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            {{ if .Params.linkurl }}
+            <h1><a href="{{ .Params.linkurl }}">{{ .Title }}</a></h1>
+            {{ else }}
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            {{ end }}
         <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
         {{ end }}
     </div>
-  </div>
+</div>
 </body>
 </html>
