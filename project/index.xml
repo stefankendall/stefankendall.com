@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project-rsses on Stefan Kendall</title>
+    <link>http://stefankendall.com/project/index.xml</link>
+    <description>Recent content in Project-rsses on Stefan Kendall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2016 21:16:31 -0400</lastBuildDate>
+    <atom:link href="http://stefankendall.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Steak Games</title>
+      <link>http://stefankendall.com/project/steak-games/</link>
+      <pubDate>Fri, 14 Oct 2016 21:16:31 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/project/steak-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tabletop Simulator Backup</title>
+      <link>http://stefankendall.com/project/tabletop-simulator-backup/</link>
+      <pubDate>Sun, 14 Aug 2016 21:19:20 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/project/tabletop-simulator-backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Just Tabata</title>
+      <link>http://stefankendall.com/project/just-tabata/</link>
+      <pubDate>Wed, 16 Mar 2016 08:22:25 -0400</pubDate>
+      
+      <guid>http://stefankendall.com/project/just-tabata/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
